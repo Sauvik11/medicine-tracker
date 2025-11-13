@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────────────────────────
+# Project Root: medicine-tracker-hackathon/
+# ─────────────────────────────────────────────────────────────
+
+# Python / Flask
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.env
+backend/.env.local
+backend/instance/
+backend/*.log
+
+# Node / React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Build artifacts
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Python virtual environments (if you ever create one at root)
+venv/
+env/
+ENV/
+
+# Database (never commit actual DB files)
+*.sqlite3
+*.db
+*.sql
+
+# ─────────────────────────────────────────────────────────────
+# Uploaded files (prescriptions & voice recordings)
+# ─────────────────────────────────────────────────────────────
+backend/static/uploads/
+backend/static/voices/
+!backend/static/uploads/.gitkeep
+!backend/static/voices/.gitkeep
+
+# Optional: keep empty folders so Git tracks them
+# Create these empty files so folders appear in repo (good for deployment)
+# backend/static/uploads/.gitkeep
+# backend/static/voices/.gitkeep
+
+# ─────────────────────────────────────────────────────────────
+# Deployment / Hosting
+render.yaml
+railway.json
+Dockerfile
+docker-compose.yml
+*.dockerignore
+
+# ─────────────────────────────────────────────────────────────
+# Misc
+*.bak
+*.swp
+*~
+.#*
