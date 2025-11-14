@@ -33,7 +33,6 @@ Thumbs.db
 
 # IDE / Editors
 .idea/
-.vscode/
 *.sublime-workspace
 *.sublime-project
 *.code-workspace
@@ -75,3 +74,5 @@ docker-compose.yml
 *.swp
 *~
 .#*
+config.bat
+node_modules
